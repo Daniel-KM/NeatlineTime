@@ -390,8 +390,8 @@ function neatlinetime_convert_range_dates($dates, $renderYear = null)
         return array($dateStartValue, $dateEndValue);
     }
 
-    $dateStart = (integer) $dateStart;
-    $dateEnd = (integer) $dateEnd;
+    $dateStart = (int) $dateStart;
+    $dateEnd = (int) $dateEnd;
 
     // Same years.
     if ($dateStart == $dateEnd) {

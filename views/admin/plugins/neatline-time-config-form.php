@@ -32,7 +32,7 @@ unset($elements['']);
         </div>
         <div class="inputs five columns omega">
             <?php echo $this->formCheckbox('neatline_time_internal_assets', true,
-                array('checked' => (boolean) get_option('neatline_time_internal_assets'))); ?>
+                array('checked' => (bool) get_option('neatline_time_internal_assets'))); ?>
             <p class="explanation">
                 <?php echo __('The external Simile api cannot be used on a https site, so check this box if needed.'); ?>
             </p>

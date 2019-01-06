@@ -455,7 +455,7 @@ class NeatlineTimePlugin extends Omeka_Plugin_AbstractPlugin
         if (empty($request)) {
             return $params;
         }
-        $id = (integer) $request->getParam('id');
+        $id = (int) $request->getParam('id');
         if (empty($id)) {
             return $params;
         }
